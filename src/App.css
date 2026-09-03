@@ -1,0 +1,94 @@
+
+
+
+fieldset:disabled {
+  cursor: not-allowed;
+}
+
+
+fieldset:disabled input, 
+fieldset:disabled select, 
+fieldset:disabled textarea {
+  background-color: transparent !important; 
+  color: #1e293b !important; 
+  border-color: transparent !important; 
+  border-bottom: 1px solid #e2e8f0 !important; 
+  font-weight: 600 !important;
+  padding-left: 0 !important;
+  pointer-events: none;
+  box-shadow: none !important;
+  opacity: 1 !important; 
+}
+
+
+fieldset:disabled ::placeholder {
+  color: transparent !important;
+}
+
+
+fieldset:disabled input[type="checkbox"],
+fieldset:disabled input[type="radio"] {
+  filter: grayscale(100%);
+  opacity: 0.6;
+  accent-color: #64748b;
+  border-radius: 2px;
+}
+
+
+fieldset:disabled label {
+  color: #94a3b8 !important; 
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+
+fieldset:disabled .add-btn, 
+fieldset:disabled .delete-btn,
+fieldset:disabled button:not([type="submit"]) {
+  display: none !important;
+}
+
+fieldset:disabled {
+  cursor: default;
+}
+
+
+fieldset:disabled label {
+  color: #94a3b8 !important;
+  font-weight: 500 !important;
+}
+
+
+fieldset:disabled input, 
+fieldset:disabled select, 
+fieldset:disabled textarea {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #f1f5f9 !important;
+  color: #0f172a !important; 
+  padding-left: 0 !important;
+  pointer-events: none;
+  opacity: 1 !important;
+  box-shadow: none !important;
+  font-weight: 700 !important;
+}
+
+
+fieldset:disabled ::placeholder {
+  color: transparent !important;
+}
+
+
+fieldset:disabled input[type="checkbox"],
+fieldset:disabled input[type="radio"] {
+  filter: grayscale(100%);
+  opacity: 0.3;
+  accent-color: #64748b;
+}
+
+
+fieldset:disabled .add-btn,
+fieldset:disabled button:not([type="submit"]) {
+  display: none !important;
+}

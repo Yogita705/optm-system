@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@theme {
+  --color-optm-green: #0D331E;      /* Deep Clinical Green */
+  --color-optm-goldenrod: #E2F5B4;  /* Pale Goldenrod */
+  --color-optm-gray: #D0D9BC;       /* Pastel Gray */
+  --color-optm-alabaster: #F7F5F0;  /* Alabaster */
+  --color-optm-soap: #D5BBEA;       /* Soap Purple */
+  
+  --font-sans: 'Euclid Circular A', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-MediumItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-SemiboldItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-002F, U+003A-FFFF;
+  src: url('/fonts/EuclidCircularATrial-BoldItalic.otf') format('opentype');
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: "lnum" 1, "tnum" 1, "onum" 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: #0f172a;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-feature-settings: "lnum" 1, "tnum" 1, "onum" 0;
+}
+
+input, select, textarea {
+  font-family: var(--font-sans);
+  font-size: 13.5px !important;
+  color: #0f172a !important;
+}
+
+button {
+  font-family: var(--font-sans);
+  color: inherit;
+}
+
+.text-\[8px\], 
+.text-\[9px\] {
+  font-size: 11px !important;
+}
+
+.text-\[10px\], 
+.text-\[10\.5px\], 
+.text-\[11px\] {
+  font-size: 12px !important;
+}
+
+.text-xs {
+  font-size: 14px !important;
+}
+
+.text-sm {
+  font-size: 15.5px !important;
+}
+
+.text-slate-400,
+.text-slate-500,
+.text-optm-green\/60,
+.text-optm-green\/70,
+.text-optm-green\/80 {
+  color: #1e293b !important;
+}
+
+button.bg-optm-green {
+  color: #ffffff !important;
+}
+
+button.bg-optm-green svg {
+  color: #ffffff !important;
+}
